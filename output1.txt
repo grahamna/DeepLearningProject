@@ -1,0 +1,65 @@
+# Root directory for dataset
+dataroot = "wikiData/data/wikiart-dataset/wikiart"
+
+# Number of workers for dataloader
+workers = 2
+
+# Batch size during training
+batch_size = 128
+
+# Spatial size of training images. All images will be resized to this
+#   size using a transformer.
+image_size = 64
+
+# Number of channels in the training images. For color images this is 3
+nc = 3
+
+# Size of z latent vector (i.e. size of generator input)
+nz = 100
+
+# Size of feature maps in generator
+ngf = 64
+
+# Size of feature maps in discriminator
+ndf = 64
+
+# Number of training epochs
+num_epochs = 2 # up for discussion
+
+# Learning rate for optimizers
+lr = 0.0002 # changed from 0.0002
+
+# Beta1 hyperparameter for Adam optimizers
+beta1 = 0.5
+
+# Number of GPUs available. Use 0 for CPU mode.
+ngpu = 1
+---------------------------------------------------------------------------------------------------------
+[0/2][0/637]	Loss_D: 2.1736	Loss_G: 3.0965	D(x): 0.3011	D(G(z)): 0.3788 / 0.0602
+[0/2][50/637]	Loss_D: 1.4184	Loss_G: 19.2106	D(x): 0.9145	D(G(z)): 0.6386 / 0.0000
+[0/2][100/637]	Loss_D: 1.7517	Loss_G: 0.6918	D(x): 0.3335	D(G(z)): 0.0459 / 0.5180
+[0/2][150/637]	Loss_D: 0.2896	Loss_G: 8.0944	D(x): 0.8877	D(G(z)): 0.1447 / 0.0004
+[0/2][200/637]	Loss_D: 0.4380	Loss_G: 5.2321	D(x): 0.7502	D(G(z)): 0.0026 / 0.0100
+[0/2][250/637]	Loss_D: 0.2643	Loss_G: 5.1183	D(x): 0.8578	D(G(z)): 0.0644 / 0.0096
+[0/2][300/637]	Loss_D: 0.5739	Loss_G: 7.2664	D(x): 0.9773	D(G(z)): 0.3673 / 0.0126
+[0/2][350/637]	Loss_D: 0.6959	Loss_G: 3.5230	D(x): 0.6725	D(G(z)): 0.1176 / 0.0555
+[0/2][400/637]	Loss_D: 1.4754	Loss_G: 5.4451	D(x): 0.8542	D(G(z)): 0.6390 / 0.0081
+[0/2][450/637]	Loss_D: 0.9535	Loss_G: 6.5107	D(x): 0.9523	D(G(z)): 0.5639 / 0.0024
+[0/2][500/637]	Loss_D: 0.5828	Loss_G: 4.8928	D(x): 0.8860	D(G(z)): 0.3334 / 0.0112
+[0/2][550/637]	Loss_D: 0.4015	Loss_G: 3.3838	D(x): 0.7506	D(G(z)): 0.0642 / 0.0470
+[0/2][600/637]	Loss_D: 0.2748	Loss_G: 1.6723	D(x): 0.7948	D(G(z)): 0.0127 / 0.2208
+[1/2][0/637]	Loss_D: 0.3962	Loss_G: 3.2916	D(x): 0.7814	D(G(z)): 0.1078 / 0.0481
+[1/2][50/637]	Loss_D: 0.4106	Loss_G: 4.4472	D(x): 0.9305	D(G(z)): 0.2737 / 0.0135
+[1/2][100/637]	Loss_D: 0.7856	Loss_G: 4.6832	D(x): 0.5267	D(G(z)): 0.0097 / 0.0200
+[1/2][150/637]	Loss_D: 0.1812	Loss_G: 4.8816	D(x): 0.9251	D(G(z)): 0.0900 / 0.0108
+[1/2][200/637]	Loss_D: 0.3841	Loss_G: 5.9207	D(x): 0.9179	D(G(z)): 0.2347 / 0.0033
+[1/2][250/637]	Loss_D: 0.6876	Loss_G: 3.0650	D(x): 0.7106	D(G(z)): 0.2287 / 0.0698
+[1/2][300/637]	Loss_D: 0.1786	Loss_G: 3.9981	D(x): 0.9355	D(G(z)): 0.1012 / 0.0238
+[1/2][350/637]	Loss_D: 0.2811	Loss_G: 3.5821	D(x): 0.9235	D(G(z)): 0.1684 / 0.0355
+[1/2][400/637]	Loss_D: 0.5837	Loss_G: 2.5548	D(x): 0.6269	D(G(z)): 0.0347 / 0.0973
+[1/2][450/637]	Loss_D: 0.4949	Loss_G: 3.0592	D(x): 0.7882	D(G(z)): 0.1848 / 0.0635
+[1/2][500/637]	Loss_D: 0.5186	Loss_G: 3.6095	D(x): 0.7700	D(G(z)): 0.1853 / 0.0359
+[1/2][550/637]	Loss_D: 0.2793	Loss_G: 4.2380	D(x): 0.8590	D(G(z)): 0.1006 / 0.0195
+[1/2][600/637]	Loss_D: 0.3706	Loss_G: 5.2537	D(x): 0.9232	D(G(z)): 0.2314 / 0.0070
+----------------------------------------------------------------------------------------
+now epoch 10
