@@ -194,7 +194,6 @@ Starting Training Loop...
 [9/10][500/637]	Loss_D: 0.8547	Loss_G: 6.0382	D(x): 0.9820	D(G(z)): 0.5036 / 0.0042
 [9/10][550/637]	Loss_D: 0.2161	Loss_G: 3.6136	D(x): 0.8577	D(G(z)): 0.0452 / 0.0385
 [9/10][600/637]	Loss_D: 0.4434	Loss_G: 3.0434	D(x): 0.7039	D(G(z)): 0.0457 / 0.0736
-<<<<<<< HEAD:default10epoch/textOut.txt
 ----------------------------------------------
 1k epoch
 Starting Training Loop...
@@ -1198,5 +1197,3 @@ Starting Training Loop...
 [997/1000][0/40]	Loss_D: 0.0099	Loss_G: 7.6601	D(x): 0.9989	D(G(z)): 0.0079 / 0.0025
 [998/1000][0/40]	Loss_D: 0.0110	Loss_G: 7.1213	D(x): 0.9953	D(G(z)): 0.0061 / 0.0040
 [999/1000][0/40]	Loss_D: 0.0172	Loss_G: 6.9302	D(x): 0.9971	D(G(z)): 0.0138 / 0.0043
-=======
->>>>>>> parent of b77dbd6 (setup for cup run):output1/textOut.txt
